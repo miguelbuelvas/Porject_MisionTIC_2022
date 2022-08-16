@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #003476;
+    --secundary-color: #b4d2f7;
+    --heafer-size: 4rem;
+    --font: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+}
+
+.main-navegador {
+    margin-top: 10px;
+    padding-right: 0;
+    text-align: right;
+    margin: 10px;    
+}
+
+.main_item {
+    display: inline-block;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: var(--heafer-size);
+    color: white;
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #b4d2f7;
+}
