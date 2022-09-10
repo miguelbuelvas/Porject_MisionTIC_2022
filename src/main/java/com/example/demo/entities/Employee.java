@@ -20,7 +20,7 @@ public class Employee {
     private String email;
 
     @OneToOne
-    @JoinColumn(name="id_profile")
+    @JoinColumn(name="id_profle")
     private Profile profile;
 
     @Enumerated(EnumType.STRING)
