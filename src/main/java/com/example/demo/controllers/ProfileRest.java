@@ -17,10 +17,10 @@ public class ProfileRest {
     @Autowired
     private ProfileService profileService;
 
-    @GetMapping("/profiles")//Ver todos los profile
+/*GetMapping("/profiles")//Ver todos los profile
     private ResponseEntity<List<Profile>> getAllProfile (){
         return ResponseEntity.ok(profileService.Buscarprofile());
-    }
+    }*/
 
     @GetMapping(path = "profiles/{id}")//Buscar por Id
     public Optional<Profile> getProfileByID(@PathVariable("id") Long id) {

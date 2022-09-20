@@ -17,10 +17,10 @@ public class EnterpriseController {
     @Autowired
     private EnterpriseService enterpriseService;
 
-    @GetMapping("/enterprises") // buscar todo
+    /*@GetMapping("/enterprises") // buscar todo
     public ResponseEntity<List<Enterprise>> getAllEnterprise (){
         return ResponseEntity.ok(enterpriseService.Buscar());
-    }
+    }*/
 
     @GetMapping("/enterprises/{id}") // buscar por id
     public Optional<Enterprise> getEnterpriseById (@PathVariable("id") Long id){
